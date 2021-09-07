@@ -25,8 +25,10 @@ export default function Player({ player }) {
       : 0;
 
     const totalAvailable = 100 - curr.age - handicapsPoints;
-    return acc + curr.isJoker ? totalAvailable * 2 : totalAvailable;
-  });
+    return curr.isJoker
+      ? acc + totalAvailable * 2 - handicapsPoints
+      : acc + totalAvailable - handicapsPoints;
+  }, 0);
 
   return (
     <Container>
