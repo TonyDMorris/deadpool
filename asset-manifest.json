@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/deadpool/static/js/main.a0bcb8f5.chunk.js",
+    "main.js.map": "/deadpool/static/js/main.a0bcb8f5.chunk.js.map",
+    "runtime-main.js": "/deadpool/static/js/runtime-main.d8da8287.js",
+    "runtime-main.js.map": "/deadpool/static/js/runtime-main.d8da8287.js.map",
+    "static/js/2.5295a951.chunk.js": "/deadpool/static/js/2.5295a951.chunk.js",
+    "static/js/2.5295a951.chunk.js.map": "/deadpool/static/js/2.5295a951.chunk.js.map",
+    "static/js/3.678686c3.chunk.js": "/deadpool/static/js/3.678686c3.chunk.js",
+    "static/js/3.678686c3.chunk.js.map": "/deadpool/static/js/3.678686c3.chunk.js.map",
+    "index.html": "/deadpool/index.html",
+    "static/js/2.5295a951.chunk.js.LICENSE.txt": "/deadpool/static/js/2.5295a951.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8da8287.js",
+    "static/js/2.5295a951.chunk.js",
+    "static/js/main.a0bcb8f5.chunk.js"
+  ]
+}
