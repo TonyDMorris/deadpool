@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import players from "./data";
+import Players from "./components/players";
+
+import styled from "styled-components";
 
 function App() {
+  console.log(players);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header>
+        <h1>DEADPOOL</h1>
+      </Header>
+      <Players players={players} />
+    </Container>
   );
 }
-
+const Container = styled.div`
+  width: 100vw;
+`;
+const Header = styled.header`
+  background-color: #282c34;
+  min-height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+`;
 export default App;
